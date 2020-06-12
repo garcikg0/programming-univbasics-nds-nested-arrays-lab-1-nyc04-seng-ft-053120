@@ -37,7 +37,11 @@ def sorted_matrix
   # However, this time, sort each internal array alphabetically by the first character
 end
 
-def matrix_lookup(matrix, row, column)
+def matrix_lookup(produce, 0, 1)
+  produce = [
+    ["Eggplant", "Grapefruit", "Oranges", "Pineapple", "Watermelon"],
+    ["Asparagus", "Avocadoes", "Grapes", "Potatoes", "Strawberries"]
+  ]
   # Given any matrix (array of arrays), a row index and a column index,
   # Return the matrix's content at that row and and column
 end
